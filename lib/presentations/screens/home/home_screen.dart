@@ -56,10 +56,13 @@ class _CustomListTitle extends StatelessWidget {
         //3ra forma: Se necesita configurar el la propiedad 'routes' en el main/MaterialApp
         // Navigator.pushNamed(context, menuItem.link);
 
-        //4ta forma: es con go_router que lo vamos a implementar mas adelante
+        //4ta forma: Con nombre, es con go_router que lo vamos a implementar mas adelante
+        // context.pushNamed("CardsScreen");// este nombre lo tomaria de la variable static CardsName.name
+
+        //5ta forma:
         // context.go(menuItem.link);//Esto cambia la pantalla sin colocar el icono arriba para regresar
-        context.push(menuItem
-            .link); //Apila la pantalla arriba colocando el icono del Back arrow
+        //Apila la pantalla arriba colocando el icono del Back arrow
+        context.push(menuItem.link);
       },
     );
   }
