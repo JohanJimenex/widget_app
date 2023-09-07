@@ -16,4 +16,12 @@ GoRouter appRouter = GoRouter(
         path: "/cards",
         builder: (context, state) => const CardsScreen(),
       ),
+
+      //ejem[plo con name
+      GoRoute(
+        path: "/cards",
+        name:
+            "CardsScreen", // o se obtiene desde una variable static desde el CardScreen.name
+        builder: (context, state) => const CardsScreen(),
+      ),
     ]);
