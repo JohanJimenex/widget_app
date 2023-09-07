@@ -13,15 +13,15 @@ class MenuItem {
       required this.icon});
 }
 
-const List<MenuItem> menuItems = [
+const List<MenuItem> appMenuItems = [
   MenuItem(
       title: "Botones",
       subtitle: "Varios botones de flutter",
       link: "/buttons",
-      icon: Icons.smart_button_outlined),
+      icon: Icons.radio_button_checked),
   MenuItem(
       title: "Tarjetas",
       subtitle: "Un contenedor estilizado",
-      link: "/card",
+      link: "/cards",
       icon: Icons.credit_card),
 ];
