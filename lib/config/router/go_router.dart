@@ -16,7 +16,34 @@ GoRouter appRouter = GoRouter(
         path: "/cards",
         builder: (context, state) => const CardsScreen(),
       ),
-
+      GoRoute(
+        path: "/app_tutorial",
+        builder: (context, state) => const AppTutorialScreen(),
+      ),
+      GoRoute(
+        path: "/animated",
+        builder: (context, state) => const AnimatedScreen(),
+      ),
+      GoRoute(
+        path: "/inifinite_scroll",
+        builder: (context, state) => const InfiniteScrollScreen(),
+      ),
+      GoRoute(
+        path: "/progress_indicator",
+        builder: (context, state) => const ProgressScreen(),
+      ),
+      GoRoute(
+        path: "/snackbar",
+        builder: (context, state) => const SnackbarScreen(),
+      ),
+      GoRoute(
+        path: "/ui_control",
+        builder: (context, state) => const UiControlScreen(),
+      ),
+      GoRoute(
+        path: "/cards",
+        builder: (context, state) => const CardsScreen(),
+      ),
       //ejem[plo con name
       // GoRoute(
       //   path: "/cards",

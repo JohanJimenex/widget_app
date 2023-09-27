@@ -14,9 +14,9 @@ class CardsScreen extends StatelessWidget {
       body: SingleChildScrollView(
           child: Column(
         children: [
-          _CustomCard(),
-          _CustomCard(),
-          _CustomCard(),
+          const _CustomCard(),
+          const _CustomCard(),
+          const _CustomCard(),
           _ImageCard(),
           _ImageCard(),
           _ImageCard(),
