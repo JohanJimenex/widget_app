@@ -47,17 +47,19 @@ class _CustomListTitle extends StatelessWidget {
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subtitle),
       onTap: () {
-        //1ra forma: no se necesita configurar los routers
+        //Formas de navegar/cargar paginas
+
+        //1ra forma: no se necesita configurar los routers, .push() Monta la pagina encima de la anterior .pop()
         // Navigator.of(context).push(MaterialPageRoute(builder: (contex) => const ButtonsScreen()));
 
-        //2da forma:
+        //2da forma: con nombre
         // Navigator.of(context).pushNamed(menuItem.link);
 
         //3ra forma: Se necesita configurar el la propiedad 'routes' en el main/MaterialApp
         // Navigator.pushNamed(context, menuItem.link);
 
         //4ta forma: Con nombre, es con go_router que lo vamos a implementar mas adelante
-        // context.pushNamed("CardsScreen");// este nombre lo tomaria de la variable static CardsName.name
+        // context.pushNamed("CardsScreen");
 
         //5ta forma:
         // context.go(menuItem.link);//Esto cambia la pantalla sin colocar el icono arriba para regresar

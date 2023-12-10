@@ -30,13 +30,13 @@ const List<MenuItem> appMenuItems = [
       link: "/animated",
       icon: Icons.animation),
   MenuItem(
-      title: "App Tutorial",
-      subtitle: "Tutoriales",
+      title: "App Tutorial (PageView)",
+      subtitle: "Tutoriales (Animated Do fernando)",
       link: "/app_tutorial",
       icon: Icons.book_online_outlined),
   MenuItem(
-      title: "Infinite Scroll",
-      subtitle: "Scroll infinito",
+      title: "Infinite Scroll y Pull to Refresh",
+      subtitle: "Scroll infinito y cuando llega abajo carga mas",
       link: "/infinite_scroll",
       icon: Icons.roller_skating_outlined),
   MenuItem(
@@ -50,7 +50,7 @@ const List<MenuItem> appMenuItems = [
       link: "/snackbar",
       icon: Icons.notification_add),
   MenuItem(
-      title: "UI Control",
+      title: "UI Control (PageView())",
       subtitle: "UI Contro",
       link: "/ui_control",
       icon: Icons.change_circle_rounded),

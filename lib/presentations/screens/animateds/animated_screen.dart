@@ -13,6 +13,7 @@ class _AnimatedScreenState extends State<AnimatedScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: Center(
         child: AnimatedContainer(
           curve: Curves.easeInCirc,
@@ -22,10 +23,13 @@ class _AnimatedScreenState extends State<AnimatedScreen> {
           color: change ? Colors.blue : Colors.yellow,
         ),
       ),
-      floatingActionButton: FloatingActionButton(onPressed: () {
-        change = !change;
-        setState(() {});
-      }),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          change = !change;
+          setState(() {});
+        },
+        child: const Icon(Icons.change_circle),
+      ),
     );
   }
 }

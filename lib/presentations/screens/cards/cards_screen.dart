@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 class CardsScreen extends StatelessWidget {
+  // static String name = "CardsName";
   const CardsScreen({super.key});
 
   @override

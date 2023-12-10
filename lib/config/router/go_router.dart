@@ -18,15 +18,15 @@ GoRouter appRouter = GoRouter(
       ),
       GoRoute(
         path: "/app_tutorial",
-        builder: (context, state) => const AppTutorialScreen(),
+        builder: (context, state) => AppTutorialScreen(),
       ),
       GoRoute(
         path: "/animated",
         builder: (context, state) => const AnimatedScreen(),
       ),
       GoRoute(
-        path: "/inifinite_scroll",
-        builder: (context, state) => const InfiniteScrollScreen(),
+        path: "/infinite_scroll",
+        builder: (context, state) => InfiniteScrollScreen(),
       ),
       GoRoute(
         path: "/progress_indicator",
