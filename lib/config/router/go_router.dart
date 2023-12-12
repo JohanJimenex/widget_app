@@ -18,7 +18,7 @@ GoRouter appRouter = GoRouter(
       ),
       GoRoute(
         path: "/app_tutorial",
-        builder: (context, state) => AppTutorialScreen(),
+        builder: (context, state) => const AppTutorialScreen(),
       ),
       GoRoute(
         path: "/animated",
@@ -26,7 +26,7 @@ GoRouter appRouter = GoRouter(
       ),
       GoRoute(
         path: "/infinite_scroll",
-        builder: (context, state) => InfiniteScrollScreen(),
+        builder: (context, state) => const InfiniteScrollScreen(),
       ),
       GoRoute(
         path: "/progress_indicator",
@@ -50,7 +50,7 @@ GoRouter appRouter = GoRouter(
       ),
       GoRoute(
         path: "/theme",
-        builder: (context, state) => ThemeScreen(),
+        builder: (context, state) => const ThemeScreen(),
       ),
       //ejem[plo con name
       // GoRoute(

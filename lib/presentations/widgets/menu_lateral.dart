@@ -61,12 +61,12 @@ class _MenuLateralState extends State<MenuLateral> {
   }
 }
 
-class _NavigationDrawerDestination extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return const NavigationDrawerDestination(
-      icon: Icon(Icons.add),
-      label: Text("Home Screen"),
-    );
-  }
-}
+// class _NavigationDrawerDestination extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return const NavigationDrawerDestination(
+//       icon: Icon(Icons.add),
+//       label: Text("Home Screen"),
+//     );
+//   }
+// }

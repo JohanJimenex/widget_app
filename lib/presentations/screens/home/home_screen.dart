@@ -9,7 +9,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      endDrawer: MenuLateral(),
+      endDrawer: const MenuLateral(),
       appBar: AppBar(
         title: const Text("Flutter + Material 3"),
       ),

@@ -4,7 +4,7 @@ import 'package:widget_app/config/themes/app_theme.dart';
 import 'package:widget_app/providers/theme_provider.dart';
 
 class ThemeScreen extends ConsumerWidget {
-  ThemeScreen({super.key});
+  const ThemeScreen({super.key});
 
   // final List<int> list = [1, 2, 3, 4];
 
