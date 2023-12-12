@@ -54,4 +54,15 @@ const List<MenuItem> appMenuItems = [
       subtitle: "UI Contro",
       link: "/ui_control",
       icon: Icons.change_circle_rounded),
+  MenuItem(
+      title: "Contador Riverpod",
+      subtitle: "Practicando el manejador de estado Riverpod",
+      link: "/contador",
+      icon: Icons.water),
+  MenuItem(
+      title: "Cambiar tema con Riverpod Provider",
+      subtitle:
+          "Dark y Ligth mode, Practicando el manejador de estado Riverpod",
+      link: "/theme",
+      icon: Icons.settings_brightness_outlined),
 ];

@@ -40,7 +40,7 @@ class _CustomCard extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: <Widget>[
         const ListTile(
-          leading: Icon(Icons.album),
+          leading: Icon(Icons.account_circle_outlined),
           title: Text('The Enchanted Nightingale'),
           subtitle: Text('Music by Julie Gable. Lyrics by Sidney Stein.'),
         ),

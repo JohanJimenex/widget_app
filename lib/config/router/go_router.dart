@@ -1,5 +1,5 @@
 import 'package:go_router/go_router.dart';
-import 'package:widget_app/presentations/screens/screens.dart';
+import 'package:widget_app/presentations/screens/barril_screens.dart';
 
 GoRouter appRouter = GoRouter(
     // initialLocation: "/",
@@ -43,6 +43,14 @@ GoRouter appRouter = GoRouter(
       GoRoute(
         path: "/cards",
         builder: (context, state) => const CardsScreen(),
+      ),
+      GoRoute(
+        path: "/contador",
+        builder: (context, state) => const ContadorScreen(),
+      ),
+      GoRoute(
+        path: "/theme",
+        builder: (context, state) => ThemeScreen(),
       ),
       //ejem[plo con name
       // GoRoute(

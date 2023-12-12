@@ -10,3 +10,5 @@ export 'package:widget_app/presentations/screens/infinite_scroll/infinite_scroll
 export 'package:widget_app/presentations/screens/progress/progress_screen.dart';
 export 'package:widget_app/presentations/screens/snackbar/snackbar_screen.dart';
 export 'package:widget_app/presentations/screens/ui_control/ui_control_screen.dart';
+export 'package:widget_app/presentations/screens/contador_riverpod/contador_screen.dart';
+export 'package:widget_app/presentations/screens/theme/theme_screen.dart';
